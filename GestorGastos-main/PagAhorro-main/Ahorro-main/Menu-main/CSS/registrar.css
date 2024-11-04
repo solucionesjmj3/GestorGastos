@@ -1,0 +1,100 @@
+/* Estilos generales del cuerpo */
+body {
+    font-family: 'Quicksand', sans-serif; /* Fuente general */
+    background-color: #f8f9fa; /* Color de fondo general */
+    margin: 0; /* Eliminar margen por defecto */
+    padding: 0; /* Eliminar padding por defecto */
+}
+
+/* Estilos para el navbar */
+.navbar {
+    margin-bottom: 20px; /* Espaciado inferior del navbar */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    margin-top: 20px; /* Espaciado superior del contenedor */
+}
+
+/* Estilos para el footer */
+footer {
+    background-color: #007bff; /* Color de fondo del footer */
+    color: #ffffff; /* Color del texto */
+    padding: 40px 0; /* Espaciado superior e inferior */
+    position: relative; /* Posicionamiento relativo para el contenido */
+    margin-top: 40px; /* Separación del contenido superior */
+    border-top: 5px solid #0056b3; /* Borde superior para mayor separación */
+}
+
+footer .container {
+    max-width: 1140px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor */
+}
+
+footer .row {
+    display: flex; /* Flexbox para alinear elementos */
+    flex-wrap: wrap; /* Permitir que los elementos se envuelvan */
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+footer .col-md-4 {
+    flex: 1 0 30%; /* Flexibilidad para columnas */
+    margin: 10px; /* Espaciado entre columnas */
+    text-align: center; /* Centrar texto dentro de las columnas */
+}
+
+footer img {
+    max-width: 80%; /* Ajustar el tamaño de la imagen */
+    height: 60px; /* Mantener la proporción de la imagen */
+}
+
+footer p {
+    margin: 0; /* Eliminar márgenes por defecto */
+    font-size: 0.9rem; /* Tamaño de fuente más pequeño para el texto */
+}
+
+footer a {
+    text-decoration: none; /* Eliminar subrayado */
+    transition: color 0.3s; /* Transición suave para el color */
+}
+
+footer a:hover {
+    color: #ffcc00; /* Color de texto al pasar el cursor */
+}
+
+footer .bi {
+    font-size: 1.5rem; /* Tamaño de los iconos de Bootstrap */
+    transition: transform 0.3s; /* Transición suave para el tamaño */
+}
+
+footer .bi:hover {
+    transform: scale(1.2); /* Aumentar el tamaño del icono al pasar el cursor */
+}
+
+/* Estilo adicional para mejorar la legibilidad */
+footer .social-icons {
+    margin: 10px 0; /* Espaciado alrededor de los iconos sociales */
+}
+
+footer .social-icons a {
+    margin: 0 5px; /* Espaciado entre iconos sociales */
+}
+
+/* Estilos para formularios */
+.form-label {
+    font-weight: bold; /* Negrita para las etiquetas de formulario */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Color de fondo del botón primario */
+    border-color: #007bff; /* Color del borde del botón primario */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el cursor */
+    border-color: #0056b3; /* Color del borde al pasar el cursor */
+}
+
+.alert {
+    margin-top: 20px; /* Espaciado superior para alertas */
+}
